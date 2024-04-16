@@ -37,7 +37,7 @@ const Search = ({ setShowSearch }) => {
                         navigate(INTERNAL_PRODUCT_URL+item.id);
                         setShowSearch(false);
                     }}> 
-                        <div className="ing-container">
+                        <div className="img-container">
                             <img src={process.env.REACT_APP_DEV_URL + item.attributes.img.data[0].attributes.url} alt="" />
                         </div>
                         <div className="prod-details">
